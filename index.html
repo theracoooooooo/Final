@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Bhuu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="scene1" class="scene">
+    <svg id="tree" viewBox="0 0 200 400">
+      <path d="M100 400 C100 300, 90 200, 100 100" stroke="#654321" stroke-width="10" fill="none" />
+    </svg>
+  </div>
+
+  <div id="scene2" class="scene hidden">
+    <svg id="branches" viewBox="0 0 200 400">
+      <path d="M100 250 C80 200, 60 150, 50 100" stroke="#654321" stroke-width="5" fill="none" />
+      <path d="M100 250 C120 200, 140 150, 150 100" stroke="#654321" stroke-width="5" fill="none" />
+    </svg>
+  </div>
+
+  <div id="scene3" class="scene hidden">
+    <svg id="leaves" viewBox="0 0 200 400">
+      <circle cx="50" cy="100" r="10" fill="#28a745" />
+      <circle cx="150" cy="100" r="10" fill="#28a745" />
+      <circle cx="60" cy="150" r="10" fill="#28a745" />
+      <circle cx="140" cy="150" r="10" fill="#28a745" />
+    </svg>
+  </div>
+
+  <div id="messageScene" class="scene hidden">
+    <div class="message">Always with you ❤️</div>
+    <div class="message">Always for you ❤️</div>
+    <div class="message">Always youu ❤️</div>
+    <div class="message">THE CUTEST Girllll 🥹💖</div>
+    <div class="message">Chlti Firtiii UNIVERSEEEEE 💫🫶🙈</div>
+  </div>
+
+  <div id="finalScene" class="scene hidden">
+    <h1>HAPPY BIRTHDAY BHUU</h1>
+    <button onclick="showFinal()">Thank You</button>
+    <div id="finalEffect">🍻🕺🤪💃💌 Forever Yours, Racoo 💘</div>
+  </div>
+
+  <audio autoplay loop>
+    <source src="romantic.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
